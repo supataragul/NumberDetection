@@ -9,6 +9,7 @@ import pytesseract
 # Function to rename multiple files 
 def main():
     i = 0
+    # read images from this folder
     for filename in os.listdir('.'):
       src = filename
       # Seperate file extention
